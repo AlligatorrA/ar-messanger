@@ -1,0 +1,87 @@
+.all_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.just_center {
+    display: flex;
+    justify-content: center;
+}
+
+.align_center {
+    display: flex;
+    align-items: center;
+}
+
+.align_start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.just_btw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.just_end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.coln_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.spacer_01 {
+    width: 100%;
+    padding: 1em;
+}
+
+.spacer_half {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.border50 {
+    border-radius: 50%;
+}
+
+.cur {
+    cursor: pointer;
+}
+
+.padding_halfrem {
+    padding: 0.5rem;
+}
+
+.marg05px {
+    margin: 5px;
+}
+
+.btn {
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    padding: .2rem .5rem;
+    border-radius: 0.4rem;
+    color: var(--color-primary);
+    transition: var(--transition);
+    border: 1px solid var(--color-primary);
+}
+
+.btn:hover {
+    color: var(--color-bg);
+    border-color: transparent;
+    background-color: var(--color-white);
+}
+
+.box_shadow {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.rotate {
+    transform: rotate(20deg);
+}
